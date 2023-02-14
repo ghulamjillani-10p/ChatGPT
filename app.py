@@ -3,7 +3,7 @@ import openai
 import webbrowser
 
 app = Flask(__name__)
-API_KEY = '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'
+API_KEY = # Add key here
 openai.api_key = API_KEY
 model = 'text-davinci-003'
 file_content = None
